@@ -13,4 +13,9 @@ public class Pilot extends Person implements Rider<AirCraft> {
     public boolean dismount() {
         return false;
     }
+
+    @Override
+    public void eat() {
+
+    }
 }

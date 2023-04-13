@@ -13,8 +13,5 @@ public abstract class Person extends Animal{
         this.name = name;
     }
 
-    @Override
-    public void eat(Edible edible) {
-    edible = null;
-    }
+
 }

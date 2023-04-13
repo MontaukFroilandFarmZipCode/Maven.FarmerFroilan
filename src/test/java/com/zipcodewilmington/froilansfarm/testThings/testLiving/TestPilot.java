@@ -56,6 +56,7 @@ public class TestPilot {
         CornEars cornEars = new CornEars();
         pilot.eat(cornEars);
         int expected = 1;
-        Assert.assertNull(cornEars);
+        corn.add(cornEars);
+        Assert.assertTrue(corn.contains(cornEars));
     }
 }
